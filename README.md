@@ -6,6 +6,7 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
 ## Contents
 -[Machine Learning Systems](#Machine-Learning-Systems)
 -[Machine Learning in Organizations](#Machine-Learning-in-Organizations)
+-[Causal Inference](#Causal-Inference)
 
 
 ## Machine Learning Systems
@@ -29,5 +30,8 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
 ## Causal Inference
 - Books
   - [Causal Inference in Python](https://learning.oreilly.com/api/v1/continue/9781098140243/) by Matheus Facure. This book explains the largely untapped potential of causal inference for estimating impacts and effects.
+- Research Papers
+  - [Democratizing online controlled experiments at Booking.com](https://arxiv.org/pdf/1710.08217.pdf) by Raphael Lopez Kaufman et al. In this paper they how building a central repository of successes
+and failures to allow for knowledge sharing, having a generic and extensible code library which enforces a loose coupling between experimentation and business logic.
 - Online Resources
   - [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)by Matheus Facure. This is a free e-book format of [Causal Inference in Python](https://learning.oreilly.com/api/v1/continue/9781098140243/)
