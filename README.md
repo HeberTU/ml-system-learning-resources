@@ -1,12 +1,11 @@
 # ml-system-learning-resources
-![contrib badge](https://img.shields.io/github/contributors/jghoman/awesome-apache-airflow.svg) 
 
 This is a curated list of resources about Machine Learning Systems. Please feel free to contribute any items that should be included. Items are generally added at the top of each section so that more fresh items are featured more prominently.
 
 ## Contents
--[Machine Learning Systems](#Machine-Learning-Systems)
--[Machine Learning in Organizations](#Machine-Learning-in-Organizations)
--[Causal Inference](#Causal-Inference)
+- [Machine Learning Systems](#Machine-Learning-Systems)
+- [Machine Learning in Organizations](#Machine-Learning-in-Organizations)
+- [Causal Inference](#Causal-Inference)
 
 
 ## Machine Learning Systems
