@@ -9,6 +9,7 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
 
 ## Machine Learning Systems
 - Books
+  - [Designing Machine Learning Systems](https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/) by Chip Huyen This book offers a holistic perspective on constructing ML systems that are both reliable and adaptable, emphasizing their unique nature due to data dependencies.
   - [Designing Data-Intensive Applications](https://learning.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) by Martin Kleppmann: While not exclusively about ML systems, this book provides a comprehensive overview of modern data systems, some of which underpin ML applications.
   - [Building Machine Learning Powered Applications](https://learning.oreilly.com/library/view/building-machine-learning/9781492045106/) by Emmanuel Ameisen: This dives into the process of building and deploying ML applications, covering the lifecycle of an ML product.
 - Research Papers
