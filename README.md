@@ -5,6 +5,7 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
 
 ## Contents
 -[Machine Learning Systems](#Machine-Learning-Systems)
+-[Machine Learning in Organizations](#Machine-Learning-in-Organizations)
 
 
 ## Machine Learning Systems
@@ -22,3 +23,11 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
 ## Machine Learning in Organizations
 - Books
   - [Reliable Machine Learning](https://learning.oreilly.com/library/view/reliable-machine-learning/9781098106218/) by Cathy Chen et al. This practical book shows data scientists, software and site reliability engineers, product managers, and business owners how to run and establish ML reliably, effectively, and accountably within your organization.
+
+
+
+## Causal Inference
+- Books
+  - [Causal Inference in Python](https://learning.oreilly.com/api/v1/continue/9781098140243/) by Matheus Facure. This book explains the largely untapped potential of causal inference for estimating impacts and effects.
+- Online Resources
+  - [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)by Matheus Facure. This is a free e-book format of [Causal Inference in Python](https://learning.oreilly.com/api/v1/continue/9781098140243/)
