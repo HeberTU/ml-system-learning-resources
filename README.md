@@ -16,3 +16,9 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
   - [Machine Learning: The High-Interest Credit Card of Technical Debt](https://research.google/pubs/pub43146/) by Sculley et al. This paper provides insights into the complexities and challenges of ML systems in production.
 - Online Resources
   - [Rules of Machine Learning:Best Practices for ML Engineering](https://developers.google.com/machine-learning/guides/rules-of-ml) by Martin Zinkevich. This document is intended to help those with a basic knowledge of machine learning get the benefit of Google's best practices in machine learning. It presents a style for machine learning, similar to the Google C++ Style Guide and other popular guides to practical programming.
+
+
+
+## Machine Learning in Organizations
+- Books
+  - [Reliable Machine Learning](https://learning.oreilly.com/library/view/reliable-machine-learning/9781098106218/) by Cathy Chen et al. This practical book shows data scientists, software and site reliability engineers, product managers, and business owners how to run and establish ML reliably, effectively, and accountably within your organization.
