@@ -3,13 +3,27 @@
 This is a curated list of resources about Machine Learning Systems. Please feel free to contribute any items that should be included. Items are generally added at the top of each section so that more fresh items are featured more prominently.
 
 ## Contents
-- [Machine Learning Systems Design](#Machine-Learning-Systems-Design)
-- [Machine Learning System Use Cases](#Machine-Learning-System-Use-Cases)
-- [Machine Learning in Organizations](#Machine-Learning-in-Organizations)
 - [Machine Learning handbook links](#Machine-Learning-handbook-links)
   - [Problem Definition](#Problem-Definition)
+- [Machine Learning Systems Design](#Machine-Learning-Systems-Design)
+- [Machine Learning System Use Cases](#Machine-Learning-System-Use-Cases)
 - [Causal Inference](#Causal-Inference)
+- [Machine Learning in Organizations](#Machine-Learning-in-Organizations)
 
+
+## Machine Learning handbook links
+
+### Problem Definition 
+
+During the Modeling phase, the primary objective is to create a Machine Learning model tailored to a specific business case. This process entails deriving a well-defined modeling strategy. While specific parameters like where the inference pipeline comes into play are usually given, critical elements like defining the target variables and observation space require meticulous design.
+
+#### Observational Space & Target Definition
+- **Research Papers**
+  - [Sample Selection Bias as a Specification Error](https://www.jstor.org/stable/1912352?origin=crossref&typeAccessWorkflow=login) by James J. Heckman et al. This paper discusses the bias that results from using nonrandomly selected samples to estimate behavioral relationships as an ordinary specification error or "omitted variables" bias.
+  - [Addressing Delayed Feedback for Continuous Training with Neural Networks in CTR prediction](https://arxiv.org/abs/1907.06558) by Sofia Ira Ktena et al. This paper combats challenges of data freshness and delayed labels through continuous training and benchmarks loss functions and models to optimize CTR predictions, achieving significant gains in offline and online settings.
+  - [Semi-Supervised Learning with Graphs](https://pages.cs.wisc.edu/~jerryzhu/pub/thesis.pdf) by Xiaojin Zhu. This paper shows how Semi-supervised learning leverages labeled and unlabeled data for improved classifiers by introducing graph-based methods addressing various challenges, from label propagation to scalability. 
+  - [Snorkel: Rapid Training Data Creation with Weak Supervision](https://arxiv.org/abs/1711.10160) by Alexander Ratner et al. This paper shows how Snorkel empowers users to train high-quality ML models without hand-labeled data, using labeling functions to express heuristics, significantly speeding up model development and closely matching the performance of hand-curated training sets.
+  - [Combining Labeled and Unlabeled Data with Co-Training](https://www.cs.cmu.edu/~avrim/Papers/cotrain.pdf) by Avrim Blum et al. This paper, leveraging dual views of web pages, explores using unlabeled data to enhance learning from a small labeled dataset, providing a PAC-style analysis and demonstrating empirical improvements in web page classification.
 
 ## Machine Learning Systems Design
 - **Books**
@@ -25,12 +39,24 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
   - [Architecture of a real-world Machine Learning system](https://medium.com/louis-dorard/architecture-of-a-real-world-machine-learning-system-795254bec646) by Louis Dorard. This post describes a client-server architecture of a “supervised learning” system, where predictions are requested by a client and made on a server. 
 
 
+
 ## Machine Learning System Use Cases
 - **Research Papers**
   - [The Netflix Recommender System: Algorithms, Business Value, and Innovation](https://dl.acm.org/doi/10.1145/2843948) by Carlos A. Gomez-Uribe et al. This article discusses the various algorithms that make up the Netflix recommender system, and describes its business purpose. 
 - **Online Resources**
   - [Artwork Personalization at Netflix](https://netflixtechblog.com/artwork-personalization-c589f074ad76) by Ashok Chandrashekar. Netflix leverages machine learning and contextual bandits to personalize artwork for titles, enhancing user engagement and offering a tailored viewing experience by understanding individual preferences and viewing histories.
   - [Pareto-Based Multiobjective Machine Learning: An Overview and Case Studies](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.157.2352&rep=rep1&type=pdf) by Yaochu Jin et al. Research paper on applying Pareto optimization for ML, in which the authors claimed that “machine learning is inherently a multiobjective task”
+
+
+## Causal Inference
+- **Books**
+  - [Causal Inference in Python](https://learning.oreilly.com/api/v1/continue/9781098140243/) by Matheus Facure. This book explains the largely untapped potential of causal inference for estimating impacts and effects.
+- **Research Papers**
+  - [Democratizing online controlled experiments at Booking.com](https://arxiv.org/pdf/1710.08217.pdf) by Raphael Lopez Kaufman et al. In this paper they how building a central repository of successes
+and failures to allow for knowledge sharing, having a generic and extensible code library which enforces a loose coupling between experimentation and business logic.
+- **Online Resources**
+  - [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)by Matheus Facure. This is a free e-book format of [Causal Inference in Python](https://learning.oreilly.com/api/v1/continue/9781098140243/)
+
 
 ## Machine Learning in Organizations
 - **Books**
@@ -43,18 +69,3 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
   - [AI competitions don’t produce useful models](https://laurenoakdenrayner.com/2019/09/19/ai-competitions-dont-produce-useful-models/) by Lauren Oakden-Rayner. This post shows that AI competitions, while fostering community and publicity, often fall short in producing reliable models due to issues like multiple hypothesis testing and dataset limitations, emphasizing that winning models aren't necessarily the most useful in real-world applications.
   -[Amazon’s One Hour of Downtime on Prime Day May Have Cost It up to $100 Million in Lost Sales](https://www.businessinsider.com/amazon-prime-day-website-issues-cost-it-millions-in-lost-sales-2018-7) by Sean Wolfe.    
 
-
-## Machine Learning handbook links
-### Problem Definition
-- **Research Papers**
-  - [Sample Selection Bias as a Specification Error](https://www.jstor.org/stable/1912352?origin=crossref&typeAccessWorkflow=login) by James J. Heckman. This paper discusses the bias that results from using nonrandomly selected samples to estimate behavioral relationships as an ordinary specification error or "omitted variables" bias.
-  - 
-
-## Causal Inference
-- **Books**
-  - [Causal Inference in Python](https://learning.oreilly.com/api/v1/continue/9781098140243/) by Matheus Facure. This book explains the largely untapped potential of causal inference for estimating impacts and effects.
-- **Research Papers**
-  - [Democratizing online controlled experiments at Booking.com](https://arxiv.org/pdf/1710.08217.pdf) by Raphael Lopez Kaufman et al. In this paper they how building a central repository of successes
-and failures to allow for knowledge sharing, having a generic and extensible code library which enforces a loose coupling between experimentation and business logic.
-- **Online Resources**
-  - [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)by Matheus Facure. This is a free e-book format of [Causal Inference in Python](https://learning.oreilly.com/api/v1/continue/9781098140243/)
