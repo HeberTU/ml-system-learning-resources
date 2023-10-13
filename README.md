@@ -1,6 +1,6 @@
 # ml-system-learning-resources
 
-This is a curated list of resources about Machine Learning Systems. Please feel free to contribute any items that should be included. Items are generally added at the top of each section so that more fresh items are featured more prominently.
+This is a curated list of resources about Machine Learning Systems. Please feel free to contribute any items that should be included.
 
 ## Contents
 - [Machine Learning handbook links](#Machine-Learning-handbook-links)
