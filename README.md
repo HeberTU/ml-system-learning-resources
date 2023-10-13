@@ -26,7 +26,8 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
 ## Machine Learning in Organizations
 - **Books**
   - [Reliable Machine Learning](https://learning.oreilly.com/library/view/reliable-machine-learning/9781098106218/) by Cathy Chen et al. This practical book shows data scientists, software and site reliability engineers, product managers, and business owners how to run and establish ML reliably, effectively, and accountably within your organization.
-
+- **Online Resources**
+  - [The Value of Keeping the Right Customers](https://hbr.org/2014/10/the-value-of-keeping-the-right-customers) by Amy Gallo. This post gives the rationale behind why retaining existing customers is substantially cheaper than acquiring new ones.
     
 
 
