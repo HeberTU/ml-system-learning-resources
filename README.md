@@ -4,6 +4,7 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
 
 ## Contents
 - [Machine Learning Systems Design](#Machine-Learning-Systems-Design)
+- [Machine Learning System Use Cases](#Machine-Learning-System-Use-Cases)
 - [Machine Learning in Organizations](#Machine-Learning-in-Organizations)
 - [Causal Inference](#Causal-Inference)
 
@@ -22,13 +23,23 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
   - [Architecture of a real-world Machine Learning system](https://medium.com/louis-dorard/architecture-of-a-real-world-machine-learning-system-795254bec646) by Louis Dorard. This post describes a client-server architecture of a “supervised learning” system, where predictions are requested by a client and made on a server. 
 
 
+## Machine Learning System Use Cases
+- **Research Papers**
+  - [The Netflix Recommender System: Algorithms, Business Value, and Innovation](https://dl.acm.org/doi/10.1145/2843948) by Carlos A. Gomez-Uribe et al. This article discusses the various algorithms that make up the Netflix recommender system, and describes its business purpose. 
+- **Online Resources**
+  - [Artwork Personalization at Netflix](https://netflixtechblog.com/artwork-personalization-c589f074ad76) by Ashok Chandrashekar. Netflix leverages machine learning and contextual bandits to personalize artwork for titles, enhancing user engagement and offering a tailored viewing experience by understanding individual preferences and viewing histories.
+  - [Pareto-Based Multiobjective Machine Learning: An Overview and Case Studies](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.157.2352&rep=rep1&type=pdf) by Yaochu Jin et al. Research paper on applying Pareto optimization for ML, in which the authors claimed that “machine learning is inherently a multiobjective task”
 
 ## Machine Learning in Organizations
 - **Books**
   - [Reliable Machine Learning](https://learning.oreilly.com/library/view/reliable-machine-learning/9781098106218/) by Cathy Chen et al. This practical book shows data scientists, software and site reliability engineers, product managers, and business owners how to run and establish ML reliably, effectively, and accountably within your organization.
 - **Online Resources**
   - [The Value of Keeping the Right Customers](https://hbr.org/2014/10/the-value-of-keeping-the-right-customers) by Amy Gallo. This post gives the rationale behind why retaining existing customers is substantially cheaper than acquiring new ones.
-    
+  - [Startup Killer: the Cost of Customer Acquisition](https://www.forentrepreneurs.com/startup-killer/) by David Skok. The post emphasizes the criticality of balancing the cost of acquiring customers (CAC) with the lifetime value of a customer (LTV) for startup success. While product/market fit is essential, a viable business model is equally important, focusing on ensuring CAC is significantly lower than LTV.
+  - [How Data Scientists Are Also Susceptible to the Layoffs Amid Crisis](https://analyticsindiamag.com/how-data-scientists-are-also-susceptible-to-the-layoffs-amid-crisis/) by Sejuti Das. The post shows that despite data science's high demand, companies are cutting costs, often at the expense of analytics roles. Upskilling and adapting to newer technologies are crucial for data professionals to maintain relevance in this evolving landscape.
+  - [Machine learning isn't Kaggle competitions](https://jvns.ca/blog/2014/06/19/machine-learning-isnt-kaggle-competitions/) by Julia Evans. This post shows that while Kaggle competitions focus on machine learning algorithm challenges, real-world ML jobs encompass understanding business problems, data cleanup, model deployment, and performance measurement, making them distinct from the Kaggle experience.
+  - [AI competitions don’t produce useful models](https://laurenoakdenrayner.com/2019/09/19/ai-competitions-dont-produce-useful-models/) by Lauren Oakden-Rayner. This post shows that AI competitions, while fostering community and publicity, often fall short in producing reliable models due to issues like multiple hypothesis testing and dataset limitations, emphasizing that winning models aren't necessarily the most useful in real-world applications.
+  -[Amazon’s One Hour of Downtime on Prime Day May Have Cost It up to $100 Million in Lost Sales](https://www.businessinsider.com/amazon-prime-day-website-issues-cost-it-millions-in-lost-sales-2018-7) by Sean Wolfe.    
 
 
 ## Causal Inference
@@ -39,7 +50,3 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
 and failures to allow for knowledge sharing, having a generic and extensible code library which enforces a loose coupling between experimentation and business logic.
 - **Online Resources**
   - [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)by Matheus Facure. This is a free e-book format of [Causal Inference in Python](https://learning.oreilly.com/api/v1/continue/9781098140243/)
-  - [Startup Killer: the Cost of Customer Acquisition](https://www.forentrepreneurs.com/startup-killer/) by David Skok. The post emphasizes the criticality of balancing the cost of acquiring customers (CAC) with the lifetime value of a customer (LTV) for startup success. While product/market fit is essential, a viable business model is equally important, focusing on ensuring CAC is significantly lower than LTV.
-  - [How Data Scientists Are Also Susceptible to the Layoffs Amid Crisis](https://analyticsindiamag.com/how-data-scientists-are-also-susceptible-to-the-layoffs-amid-crisis/) by Sejuti Das. The post shows that despite data science's high demand, companies are cutting costs, often at the expense of analytics roles. Upskilling and adapting to newer technologies are crucial for data professionals to maintain relevance in this evolving landscape.
-  - [Machine learning isn't Kaggle competitions](https://jvns.ca/blog/2014/06/19/machine-learning-isnt-kaggle-competitions/) by Julia Evans. This post shows that while Kaggle competitions focus on machine learning algorithm challenges, real-world ML jobs encompass understanding business problems, data cleanup, model deployment, and performance measurement, making them distinct from the Kaggle experience.
-  - [AI competitions don’t produce useful models](https://laurenoakdenrayner.com/2019/09/19/ai-competitions-dont-produce-useful-models/) by Lauren Oakden-Rayner. This post shows that AI competitions, while fostering community and publicity, often fall short in producing reliable models due to issues like multiple hypothesis testing and dataset limitations, emphasizing that winning models aren't necessarily the most useful in real-world applications.
