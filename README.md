@@ -1,4 +1,9 @@
-# ml-system-learning-resources
+ML System Learning Resources
+==============================
+
+- [Send Email](mailto:heber.trj.urt@gmail.com)
+- [Connect with me on LinkedIn](https://www.linkedin.com/in/heber-trujillo/)
+- Date of last update: 13.10.2023
 
 This is a curated list of resources about Machine Learning Systems. Please feel free to contribute any items that should be included.
 
