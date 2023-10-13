@@ -18,7 +18,8 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
   - [150 Successful Machine Learning Models: 6 Lessons Learned at Booking.com](https://blog.kevinhu.me/2021/04/25/25-Paper-Reading-Booking.com-Experiences/bernardi2019.pdf) by Lucas Bernardi et al. This paper contains an analysis on about 150 successful customer facing applications of Machine Learning, developed by dozens of teams in Booking.com, exposed to hundreds of millions of users worldwide and validated through rigorous Randomized Controlled Trials.
 - **Online Resources**
   - [Rules of Machine Learning:Best Practices for ML Engineering](https://developers.google.com/machine-learning/guides/rules-of-ml) by Martin Zinkevich. This document is intended to help those with a basic knowledge of machine learning get the benefit of Google's best practices in machine learning. It presents a style for machine learning, similar to the Google C++ Style Guide and other popular guides to practical programming.
-  - [Science at Uber: Powering Machine Learning at Uber](https://www.uber.com/en-ES/blog/uber-science-machine-learning-platform/) by Wayne Cunningham. This resource talks about how Uber's machine learning platform, Michelangelo, lets teams across the company train, evaluate, and deploy models that help them forecast a wide range of business metrics.  
+  - [Science at Uber: Powering Machine Learning at Uber](https://www.uber.com/en-ES/blog/uber-science-machine-learning-platform/) by Wayne Cunningham. This resource talks about how Uber's machine learning platform, Michelangelo, lets teams across the company train, evaluate, and deploy models that help them forecast a wide range of business metrics.
+  - [Architecture of a real-world Machine Learning system](https://medium.com/louis-dorard/architecture-of-a-real-world-machine-learning-system-795254bec646) by Louis Dorard. This post describes a client-server architecture of a “supervised learning” system, where predictions are requested by a client and made on a server. 
 
 
 
@@ -26,6 +27,7 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
 - **Books**
   - [Reliable Machine Learning](https://learning.oreilly.com/library/view/reliable-machine-learning/9781098106218/) by Cathy Chen et al. This practical book shows data scientists, software and site reliability engineers, product managers, and business owners how to run and establish ML reliably, effectively, and accountably within your organization.
 
+    
 
 
 ## Causal Inference
