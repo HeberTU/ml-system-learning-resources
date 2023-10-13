@@ -39,3 +39,4 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
 and failures to allow for knowledge sharing, having a generic and extensible code library which enforces a loose coupling between experimentation and business logic.
 - **Online Resources**
   - [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)by Matheus Facure. This is a free e-book format of [Causal Inference in Python](https://learning.oreilly.com/api/v1/continue/9781098140243/)
+  - [Startup Killer: the Cost of Customer Acquisition](https://www.forentrepreneurs.com/startup-killer/) by David Skok. The post emphasizes the criticality of balancing the cost of acquiring customers (CAC) with the lifetime value of a customer (LTV) for startup success. While product/market fit is essential, a viable business model is equally important, focusing on ensuring CAC is significantly lower than LTV. 
