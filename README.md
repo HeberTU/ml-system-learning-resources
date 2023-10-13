@@ -6,6 +6,8 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
 - [Machine Learning Systems Design](#Machine-Learning-Systems-Design)
 - [Machine Learning System Use Cases](#Machine-Learning-System-Use-Cases)
 - [Machine Learning in Organizations](#Machine-Learning-in-Organizations)
+- [Machine Learning handbook links](#Machine-Learning-handbook-links)
+  - [Problem Definition](#Problem-Definition)
 - [Causal Inference](#Causal-Inference)
 
 
@@ -41,6 +43,12 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
   - [AI competitions don’t produce useful models](https://laurenoakdenrayner.com/2019/09/19/ai-competitions-dont-produce-useful-models/) by Lauren Oakden-Rayner. This post shows that AI competitions, while fostering community and publicity, often fall short in producing reliable models due to issues like multiple hypothesis testing and dataset limitations, emphasizing that winning models aren't necessarily the most useful in real-world applications.
   -[Amazon’s One Hour of Downtime on Prime Day May Have Cost It up to $100 Million in Lost Sales](https://www.businessinsider.com/amazon-prime-day-website-issues-cost-it-millions-in-lost-sales-2018-7) by Sean Wolfe.    
 
+
+## Machine Learning handbook links
+### Problem Definition
+- **Research Papers**
+  - [Sample Selection Bias as a Specification Error](https://www.jstor.org/stable/1912352?origin=crossref&typeAccessWorkflow=login) by James J. Heckman. This paper discusses the bias that results from using nonrandomly selected samples to estimate behavioral relationships as an ordinary specification error or "omitted variables" bias.
+  - 
 
 ## Causal Inference
 - **Books**
