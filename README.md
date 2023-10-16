@@ -10,6 +10,7 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
 ## Contents
 - [Machine Learning handbook links](#Machine-Learning-handbook-links)
   - [Problem Definition](#Problem-Definition)
+  - [Offline Model Evaluation](#Offline-Model-Evaluation)
 - [Machine Learning Systems Design](#Machine-Learning-Systems-Design)
 - [Machine Learning System Use Cases](#Machine-Learning-System-Use-Cases)
 - [Causal Inference](#Causal-Inference)
@@ -32,7 +33,11 @@ During the Modeling phase, the primary objective is to create a Machine Learning
   - [The Class Imbalance Problem: A Systematic Study](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=96F26971E9360C5D02F4E2C8D858357E?doi=10.1.1.711.8214&rep=rep1&type=pdf) by Nathalie Japkowiz et al. The paper systematically examines the impact of class imbalances on machine learning classifiers
   - [The Class Imbalance Problem: Significance and Strategies](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.35.1693&rep=rep1&type=pdf) by Nathalie Japkowicz et al. The paper evaluates how class imbalances affect the performance of connectionist systems and compares different methods previously suggested to address this challenge.
 - **Online Resources**
-  - [Bridging AI’s Proof-of-Concept to Production Gap](https://www.youtube.com/watch?v=tsPuVAMaADY) by Andrew Ng. Talk about key challenges facing AI deployments and possible solutions, ranging from techniques for working with small data to improving algorithms' robustness and generalizability to systematically planning out the full cycle of machine learning projects.
+  - [The Relationship Between Precision-Recall and ROC Curves](https://www.biostat.wisc.edu/~page/rocpr.pdf) by Andrew Ng. Talk about key challenges facing AI deployments and possible solutions, ranging from techniques for working with small data to improving algorithms' robustness and generalizability to systematically planning out the full cycle of machine learning projects.
+
+#### Offline Model Evaluation
+- **Research Papers**
+  - [Sample Selection Bias as a Specification Error](https://www.jstor.org/stable/1912352?origin=crossref&typeAccessWorkflow=login) by Jesse Davis et al. The paper delves into the relationship between ROC and PR curves in machine learning, highlighting their deep connection, differences, and the implications for algorithm design, while introducing an efficient method to compute the achievable PR curve.
 
 ## Machine Learning Systems Design
 - **Books**
