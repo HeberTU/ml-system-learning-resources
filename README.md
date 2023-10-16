@@ -29,6 +29,8 @@ During the Modeling phase, the primary objective is to create a Machine Learning
   - [Semi-Supervised Learning with Graphs](https://pages.cs.wisc.edu/~jerryzhu/pub/thesis.pdf) by Xiaojin Zhu. This paper shows how Semi-supervised learning leverages labeled and unlabeled data for improved classifiers by introducing graph-based methods addressing various challenges, from label propagation to scalability. 
   - [Snorkel: Rapid Training Data Creation with Weak Supervision](https://arxiv.org/abs/1711.10160) by Alexander Ratner et al. This paper shows how Snorkel empowers users to train high-quality ML models without hand-labeled data, using labeling functions to express heuristics, significantly speeding up model development and closely matching the performance of hand-curated training sets.
   - [Combining Labeled and Unlabeled Data with Co-Training](https://www.cs.cmu.edu/~avrim/Papers/cotrain.pdf) by Avrim Blum et al. This paper, leveraging dual views of web pages, explores using unlabeled data to enhance learning from a small labeled dataset, providing a PAC-style analysis and demonstrating empirical improvements in web page classification.
+- **Online Resources**
+  - [Bridging AI’s Proof-of-Concept to Production Gap](https://www.youtube.com/watch?v=tsPuVAMaADY) by Andrew Ng. Talk about key challenges facing AI deployments and possible solutions, ranging from techniques for working with small data to improving algorithms' robustness and generalizability to systematically planning out the full cycle of machine learning projects.
 
 ## Machine Learning Systems Design
 - **Books**
