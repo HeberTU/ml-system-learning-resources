@@ -3,13 +3,14 @@ ML System Learning Resources
 
 - [Send Email](mailto:heber.trj.urt@gmail.com)
 - [Connect with me on LinkedIn](https://www.linkedin.com/in/heber-trujillo/)
-- Date of last update: 13.10.2023
+- Date of last update: 16.10.2023
 
 This is a curated list of resources about Machine Learning Systems. Please feel free to contribute any items that should be included.
 
 ## Contents
 - [Machine Learning handbook links](#Machine-Learning-handbook-links)
   - [Problem Definition](#Problem-Definition)
+  - [Offline Model Evaluation](#Offline-Model-Evaluation)
 - [Machine Learning Systems Design](#Machine-Learning-Systems-Design)
 - [Machine Learning System Use Cases](#Machine-Learning-System-Use-Cases)
 - [Causal Inference](#Causal-Inference)
@@ -29,6 +30,16 @@ During the Modeling phase, the primary objective is to create a Machine Learning
   - [Semi-Supervised Learning with Graphs](https://pages.cs.wisc.edu/~jerryzhu/pub/thesis.pdf) by Xiaojin Zhu. This paper shows how Semi-supervised learning leverages labeled and unlabeled data for improved classifiers by introducing graph-based methods addressing various challenges, from label propagation to scalability. 
   - [Snorkel: Rapid Training Data Creation with Weak Supervision](https://arxiv.org/abs/1711.10160) by Alexander Ratner et al. This paper shows how Snorkel empowers users to train high-quality ML models without hand-labeled data, using labeling functions to express heuristics, significantly speeding up model development and closely matching the performance of hand-curated training sets.
   - [Combining Labeled and Unlabeled Data with Co-Training](https://www.cs.cmu.edu/~avrim/Papers/cotrain.pdf) by Avrim Blum et al. This paper, leveraging dual views of web pages, explores using unlabeled data to enhance learning from a small labeled dataset, providing a PAC-style analysis and demonstrating empirical improvements in web page classification.
+  - [The Class Imbalance Problem: A Systematic Study](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=96F26971E9360C5D02F4E2C8D858357E?doi=10.1.1.711.8214&rep=rep1&type=pdf) by Nathalie Japkowiz et al. The paper systematically examines the impact of class imbalances on machine learning classifiers
+  - [The Class Imbalance Problem: Significance and Strategies](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.35.1693&rep=rep1&type=pdf) by Nathalie Japkowicz et al. The paper evaluates how class imbalances affect the performance of connectionist systems and compares different methods previously suggested to address this challenge.
+  - [kNN Approach to Unbalanced Data Distributions: A Case Study involving Information Extraction](https://www.site.uottawa.ca/~nat/Workshop2003/jzhang.pdf) by Jianping Zhang et al. This paper describes an application of simple KNN approach to a novel classification problem with an unbalanced class distribution.
+  - [Addressing the Curse of Imbalanced Training Sets: One-Sided Selection](https://sci2s.ugr.es/keel/pdf/algorithm/congreso/kubat97addressing.pdf) by Miroslav Kubat et al. This paper introduces the idea of One-side selection: an undersampling technique, which means it works by reducing the number of instances from the majority class.
+- **Online Resources**
+  - [The Relationship Between Precision-Recall and ROC Curves](https://www.biostat.wisc.edu/~page/rocpr.pdf) by Andrew Ng. Talk about key challenges facing AI deployments and possible solutions, ranging from techniques for working with small data to improving algorithms' robustness and generalizability to systematically planning out the full cycle of machine learning projects.
+
+#### Offline Model Evaluation
+- **Research Papers**
+  - [Sample Selection Bias as a Specification Error](https://www.jstor.org/stable/1912352?origin=crossref&typeAccessWorkflow=login) by Jesse Davis et al. The paper delves into the relationship between ROC and PR curves in machine learning, highlighting their deep connection, differences, and the implications for algorithm design, while introducing an efficient method to compute the achievable PR curve.
 
 ## Machine Learning Systems Design
 - **Books**
