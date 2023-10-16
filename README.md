@@ -35,11 +35,11 @@ During the Modeling phase, the primary objective is to create a Machine Learning
   - [kNN Approach to Unbalanced Data Distributions: A Case Study involving Information Extraction](https://www.site.uottawa.ca/~nat/Workshop2003/jzhang.pdf) by Jianping Zhang et al. This paper describes an application of simple KNN approach to a novel classification problem with an unbalanced class distribution.
   - [Addressing the Curse of Imbalanced Training Sets: One-Sided Selection](https://sci2s.ugr.es/keel/pdf/algorithm/congreso/kubat97addressing.pdf) by Miroslav Kubat et al. This paper introduces the idea of One-side selection: an undersampling technique, which means it works by reducing the number of instances from the majority class.
 - **Online Resources**
-  - [The Relationship Between Precision-Recall and ROC Curves](https://www.biostat.wisc.edu/~page/rocpr.pdf) by Andrew Ng. Talk about key challenges facing AI deployments and possible solutions, ranging from techniques for working with small data to improving algorithms' robustness and generalizability to systematically planning out the full cycle of machine learning projects.
+  - [AI's Proof-of-Concept to Production Gap](https://www.youtube.com/watch?v=tsPuVAMaADY) by Andrew Ng. Talk about key challenges facing AI deployments and possible solutions, ranging from techniques for working with small data to improving algorithms' robustness and generalizability to systematically planning out the full cycle of machine learning projects.
 
 #### Offline Model Evaluation
 - **Research Papers**
-  - [Sample Selection Bias as a Specification Error](https://www.jstor.org/stable/1912352?origin=crossref&typeAccessWorkflow=login) by Jesse Davis et al. The paper delves into the relationship between ROC and PR curves in machine learning, highlighting their deep connection, differences, and the implications for algorithm design, while introducing an efficient method to compute the achievable PR curve.
+  - [The Relationship Between Precision-Recall and ROC Curves](https://www.biostat.wisc.edu/~page/rocpr.pdf)  by Jesse Davis et al. The paper delves into the relationship between ROC and PR curves in machine learning, highlighting their deep connection, differences, and the implications for algorithm design, while introducing an efficient method to compute the achievable PR curve.
 
 ## Machine Learning Systems Design
 - **Books**
