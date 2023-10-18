@@ -7,23 +7,25 @@ ML System Learning Resources
 
 This is a curated list of resources about Machine Learning Systems. Please feel free to contribute any items that should be included.
 
-## Contents
+# Content
 - [Machine Learning handbook links](#Machine-Learning-handbook-links)
   - [Problem Definition](#Problem-Definition)
   - [Offline Model Evaluation](#Offline-Model-Evaluation)
+  - [Monitoring](#Monitoring)
+    - [Data Distribution shifts](#Data-Distribution-shifts)
 - [Machine Learning Systems Design](#Machine-Learning-Systems-Design)
 - [Machine Learning System Use Cases](#Machine-Learning-System-Use-Cases)
 - [Causal Inference](#Causal-Inference)
 - [Machine Learning in Organizations](#Machine-Learning-in-Organizations)
 
 
-## Machine Learning handbook links
+# Machine Learning handbook links
 
-### Problem Definition 
+## Problem Definition 
 
 During the Modeling phase, the primary objective is to create a Machine Learning model tailored to a specific business case. This process entails deriving a well-defined modeling strategy. While specific parameters like where the inference pipeline comes into play are usually given, critical elements like defining the target variables and observation space require meticulous design.
 
-#### Observational Space & Target Definition
+### Observational Space & Target Definition
 - **Research Papers**
   - [Sample Selection Bias as a Specification Error](https://www.jstor.org/stable/1912352?origin=crossref&typeAccessWorkflow=login) by James J. Heckman et al. This paper discusses the bias that results from using nonrandomly selected samples to estimate behavioral relationships as an ordinary specification error or "omitted variables" bias.
   - [Addressing Delayed Feedback for Continuous Training with Neural Networks in CTR prediction](https://arxiv.org/abs/1907.06558) by Sofia Ira Ktena et al. This paper combats challenges of data freshness and delayed labels through continuous training and benchmarks loss functions and models to optimize CTR predictions, achieving significant gains in offline and online settings.
@@ -37,11 +39,22 @@ During the Modeling phase, the primary objective is to create a Machine Learning
 - **Online Resources**
   - [AI's Proof-of-Concept to Production Gap](https://www.youtube.com/watch?v=tsPuVAMaADY) by Andrew Ng. Talk about key challenges facing AI deployments and possible solutions, ranging from techniques for working with small data to improving algorithms' robustness and generalizability to systematically planning out the full cycle of machine learning projects.
 
-#### Offline Model Evaluation
+### Offline Model Evaluation
 - **Research Papers**
   - [The Relationship Between Precision-Recall and ROC Curves](https://www.biostat.wisc.edu/~page/rocpr.pdf)  by Jesse Davis et al. The paper delves into the relationship between ROC and PR curves in machine learning, highlighting their deep connection, differences, and the implications for algorithm design, while introducing an efficient method to compute the achievable PR curve.
 
-## Machine Learning Systems Design
+
+### Monitoring
+
+#### Data Distribution shifts
+- **Books**
+  - [Machine Learning in Non-Stationary Environments: Introduction to Covariate Shift Adaptation](https://direct.mit.edu/books/book/3774/Machine-Learning-in-Non-Stationary) by Masashi Sugiyama et al. This book focuses on a specific non-stationary environment known as covariate shift, in which the distributions of inputs (queries) change but the conditional distribution of outputs (answers) is unchanged, and presents machine learning theory, algorithms, and applications to overcome this variety of non-stationarity.
+- **Research Papers**
+  - [An introduction to domain adaptation and transfer learning](https://arxiv.org/abs/1812.11806) by Wouter M. Kouw et al. In this paper, the significance of unbiased training samples in machine learning for accurate predictions is emphasized. The challenges arising from differences in training and test data distributions are highlighted, and the concepts of domain adaptation and transfer learning as solutions are introduced. The paper explores the conditions under which classifiers can effectively generalize across different domains, discusses risk minimization, examines types of data set shifts, and presents various strategies to handle complex domain shifts.
+  - [Covariate Shift by Kernel Mean Matching](https://www.gatsby.ucl.ac.uk/~gretton/papers/covariateShiftChapter.pdf) by Arthur Gretton et al. In this paper, they introduce a method to adjust training data so its distribution aligns more closely with test data by matching covariate distributions in a high-dimensional feature space.  This technique bypasses the need for distribution estimation, utilizing a straightforward quadratic programming process to determine sample weights. 
+
+
+# Machine Learning Systems Design
 - **Books**
   - [Designing Machine Learning Systems](https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/) by Chip Huyen This book offers a holistic perspective on constructing ML systems that are both reliable and adaptable, emphasizing their unique nature due to data dependencies.
   - [Building Machine Learning Powered Applications](https://learning.oreilly.com/library/view/building-machine-learning/9781492045106/) by Emmanuel Ameisen: This dives into the process of building and deploying ML applications, covering the lifecycle of an ML product.
@@ -56,7 +69,7 @@ During the Modeling phase, the primary objective is to create a Machine Learning
 
 
 
-## Machine Learning System Use Cases
+# Machine Learning System Use Cases
 - **Research Papers**
   - [The Netflix Recommender System: Algorithms, Business Value, and Innovation](https://dl.acm.org/doi/10.1145/2843948) by Carlos A. Gomez-Uribe et al. This article discusses the various algorithms that make up the Netflix recommender system, and describes its business purpose. 
 - **Online Resources**
@@ -64,7 +77,7 @@ During the Modeling phase, the primary objective is to create a Machine Learning
   - [Pareto-Based Multiobjective Machine Learning: An Overview and Case Studies](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.157.2352&rep=rep1&type=pdf) by Yaochu Jin et al. Research paper on applying Pareto optimization for ML, in which the authors claimed that “machine learning is inherently a multiobjective task”
 
 
-## Causal Inference
+# Causal Inference
 - **Books**
   - [Causal Inference in Python](https://learning.oreilly.com/api/v1/continue/9781098140243/) by Matheus Facure. This book explains the largely untapped potential of causal inference for estimating impacts and effects.
 - **Research Papers**
@@ -74,7 +87,7 @@ and failures to allow for knowledge sharing, having a generic and extensible cod
   - [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)by Matheus Facure. This is a free e-book format of [Causal Inference in Python](https://learning.oreilly.com/api/v1/continue/9781098140243/)
 
 
-## Machine Learning in Organizations
+# Machine Learning in Organizations
 - **Books**
   - [Reliable Machine Learning](https://learning.oreilly.com/library/view/reliable-machine-learning/9781098106218/) by Cathy Chen et al. This practical book shows data scientists, software and site reliability engineers, product managers, and business owners how to run and establish ML reliably, effectively, and accountably within your organization.
 - **Online Resources**
