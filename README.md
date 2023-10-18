@@ -11,6 +11,8 @@ This is a curated list of resources about Machine Learning Systems. Please feel 
 - [Machine Learning handbook links](#Machine-Learning-handbook-links)
   - [Problem Definition](#Problem-Definition)
   - [Offline Model Evaluation](#Offline-Model-Evaluation)
+  - [Monitoring](#Monitoring)
+    - [Data Distribution shifts](#Data-Distribution-shifts)
 - [Machine Learning Systems Design](#Machine-Learning-Systems-Design)
 - [Machine Learning System Use Cases](#Machine-Learning-System-Use-Cases)
 - [Causal Inference](#Causal-Inference)
@@ -40,6 +42,13 @@ During the Modeling phase, the primary objective is to create a Machine Learning
 #### Offline Model Evaluation
 - **Research Papers**
   - [The Relationship Between Precision-Recall and ROC Curves](https://www.biostat.wisc.edu/~page/rocpr.pdf)  by Jesse Davis et al. The paper delves into the relationship between ROC and PR curves in machine learning, highlighting their deep connection, differences, and the implications for algorithm design, while introducing an efficient method to compute the achievable PR curve.
+
+
+#### Monitoring
+
+##### Data Distribution shifts
+
+
 
 ## Machine Learning Systems Design
 - **Books**
