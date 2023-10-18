@@ -47,7 +47,8 @@ During the Modeling phase, the primary objective is to create a Machine Learning
 ### Monitoring
 
 #### Data Distribution shifts
-
+- **Research Papers**
+  - [An introduction to domain adaptation and transfer learning](https://arxiv.org/abs/1812.11806) by Wouter M. Kouw et al. In this paper, the significance of unbiased training samples in machine learning for accurate predictions is emphasized. The challenges arising from differences in training and test data distributions are highlighted, and the concepts of domain adaptation and transfer learning as solutions are introduced. The paper explores the conditions under which classifiers can effectively generalize across different domains, discusses risk minimization, examines types of data set shifts, and presents various strategies to handle complex domain shifts.
 
 
 # Machine Learning Systems Design
