@@ -88,7 +88,7 @@ During the Modeling phase, the primary objective is to create a Machine Learning
 and failures to allow for knowledge sharing, having a generic and extensible code library which enforces a loose coupling between experimentation and business logic.
 - **Online Resources**
   - [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)by Matheus Facure. This is a free e-book format of [Causal Inference in Python](https://learning.oreilly.com/api/v1/continue/9781098140243/)
-
+  - [A Randomized Assessment of Online Learning](https://www.proquest.com/openview/df502791278ac05f879e354c5dae7645/1.pdf?pq-origsite=gscholar&cbl=42182) by y William T. Alpert. In this paper they present a comprehensive randomized study on the effectiveness of online learning compared to traditional classroom instruction. Utilizing robust statistical methodologies, the authors assess student outcomes, engagement levels, and retention rates between the two modes of instruction. Key findings suggest that while online platforms offer greater flexibility and can achieve similar academic results, certain nuances, like student-teacher interaction and peer collaboration, differ significantly from in-person settings. The research delves deep into the data, using advanced analytical techniques to control for confounding variables and biases, ensuring the results are both reliable and generalizable. This study provides valuable insights not just for educators, but also for data scientists interested in the complexities of educational data and the challenges of conducting randomized trials in real-world settings.
 
 # Machine Learning in Organizations
 - **Books**
