@@ -3,7 +3,7 @@ ML System Learning Resources
 
 - [Send Email](mailto:heber.trj.urt@gmail.com)
 - [Connect with me on LinkedIn](https://www.linkedin.com/in/heber-trujillo/)
-- Date of last update: 25.10.2023
+- Date of last update: 27.10.2023
 
 This is a curated list of resources about Machine Learning Systems. Please feel free to contribute any items that should be included.
 
@@ -87,7 +87,8 @@ During the Modeling phase, the primary objective is to create a Machine Learning
   - [Democratizing online controlled experiments at Booking.com](https://arxiv.org/pdf/1710.08217.pdf) by Raphael Lopez Kaufman et al. In this paper they how building a central repository of successes
 and failures to allow for knowledge sharing, having a generic and extensible code library which enforces a loose coupling between experimentation and business logic.
   - [A Randomized Assessment of Online Learning](https://www.proquest.com/openview/df502791278ac05f879e354c5dae7645/1.pdf?pq-origsite=gscholar&cbl=42182) by y William T. Alpert. In this paper they present a comprehensive randomized study on the effectiveness of online learning compared to traditional classroom instruction. Utilizing robust statistical methodologies, the authors assess student outcomes, engagement levels, and retention rates between the two modes of instruction. Key findings suggest that while online platforms offer greater flexibility and can achieve similar academic results, certain nuances, like student-teacher interaction and peer collaboration, differ significantly from in-person settings. The research delves deep into the data, using advanced analytical techniques to control for confounding variables and biases, ensuring the results are both reliable and generalizable. This study provides valuable insights not just for educators, but also for data scientists interested in the complexities of educational data and the challenges of conducting randomized trials in real-world settings.
-  - [A/B Testing Intuition Busters: Common Misunderstandings in Online Controlled Experiments](https://drive.google.com/file/d/1oK2HpKKXeQLX6gQeQpfEaCGZtNr2kR76/view) by Ron Kohavi et al. This paper highlights the misleading concepts often promoted in the industry regarding A/B testing, debunks these misconceptions with statistical reasoning, and offers suggestions to platform designers to prevent such intuitive errors. 
+  - [A/B Testing Intuition Busters: Common Misunderstandings in Online Controlled Experiments](https://drive.google.com/file/d/1oK2HpKKXeQLX6gQeQpfEaCGZtNr2kR76/view) by Ron Kohavi et al. This paper highlights the misleading concepts often promoted in the industry regarding A/B testing, debunks these misconceptions with statistical reasoning, and offers suggestions to platform designers to prevent such intuitive errors.
+  - [Making Sense of Sensitivity: Extending Omitted Variable Bias](https://academic.oup.com/jrsssb/article/82/1/39/7056023) by Carlos Cinelli et al. In this paper, the autors extend the omitted variable bias framework with a suite of tools for sensitivity analysis in regression models that: (i) does not require assumptions on the functional form of the treatment assignment mechanism nor on the distribution of the unobserved confounders; (ii) naturally handles multiple confounders, possibly acting non-linearly; (iii) exploits expert knowledge to bound sensitivity parameters; and, (iv) can be easily computed using only standard regression results.
 - **Online Resources**
   - [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)by Matheus Facure. This is a free e-book format of [Causal Inference in Python](https://learning.oreilly.com/api/v1/continue/9781098140243/)
 
