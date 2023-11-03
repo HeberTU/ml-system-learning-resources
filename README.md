@@ -3,7 +3,7 @@ ML System Learning Resources
 
 - [Send Email](mailto:heber.trj.urt@gmail.com)
 - [Connect with me on LinkedIn](https://www.linkedin.com/in/heber-trujillo/)
-- Date of last update: 02.11.2023
+- Date of last update: 03.11.2023
 
 This is a curated list of resources about Machine Learning Systems. Please feel free to contribute any items that should be included.
 
@@ -93,6 +93,7 @@ and failures to allow for knowledge sharing, having a generic and extensible cod
   - [Difference-in-Differences with Variation in Treatment Timing](https://www.nber.org/system/files/working_papers/w25018/w25018.pdf) by Andrew Goodman-Bacon. In this paper, the author investigates the intricacies of the two-way fixed effects difference-in-differences (TWFEDD) estimator, often used when treatment timings vary across units. The paper reveals that TWFEDD is a weighted average of all two-period/two-group difference-in-differences estimators, where weights are influenced by the timing group sizes and treatment variance. The analysis highlights that TWFEDD can yield a variance-weighted average of treatment effects if these effects are consistent over time; however, varying effects result in "negative weights" and could lead to misleading estimates. The author introduces a new perspective on the common trends assumption, tailored for TWFEDD, and provides tools for dissecting and understanding changes in estimates across different specifications. The methods are applied to a case study on unilateral divorce laws' impact on female suicide rates, indicating potential biases in TWFEDD estimates due to treatment effect evolution over time. The findings emphasize caution in using TWFEDD with varied treatment timings and point towards more flexible estimators that can better handle such variations.
 - **Online Resources**
   - [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)by Matheus Facure. This is a free e-book format of [Causal Inference in Python](https://learning.oreilly.com/api/v1/continue/9781098140243/)
+  - [Understanding the Frisch-Waugh-Lovell Theorem](https://towardsdatascience.com/the-fwl-theorem-or-how-to-make-all-regressions-intuitive-59f801eb3299) by Matteo Courthoud. This post introduces the Frisch-Waugh-Lowell theorem, a debiasing technique, and illustrate some interesting applications.
 
 # Machine Learning in Organizations
 - **Books**
